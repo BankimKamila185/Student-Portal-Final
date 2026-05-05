@@ -3,7 +3,7 @@ import axios from 'axios';
 import { Plus, Edit2, Trash2, Search, X, User, GraduationCap, Calendar, Phone, Hash } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'http://13.239.246.126:3000/api';
 
 function App() {
   const [students, setStudents] = useState([]);
